@@ -1,0 +1,17 @@
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpenSetUPCSharp.dll
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpenSetUPCSharp.pdb
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpen.dll
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpen.Guide.dll
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpen.UF.dll
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpen.Utilities.dll
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpenUI.dll
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpen.xml
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpen.Guide.xml
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpen.UF.xml
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpen.Utilities.xml
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\bin\Release\NXOpenUI.xml
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Release\NXOpenSetUPCSharp.csproj.AssemblyReference.cache
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Release\NXOpenSetUPCSharp.csproj.CoreCompileInputs.cache
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Release\NXOpenSe.E850BB71.Up2Date
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Release\NXOpenSetUPCSharp.dll
+C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Release\NXOpenSetUPCSharp.pdb

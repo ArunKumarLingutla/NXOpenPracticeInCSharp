@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj",
+        "projectName": "NXOpenSetUPCSharp",
+        "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj",
+        "projectName": "NXOpenSetupCSharpTest",
+        "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj",
+        "packagesPath": "C:\\Users\\arunk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arunk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj": {
+                "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
