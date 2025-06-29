@@ -1,8 +1,10 @@
-﻿using System;
+﻿using NXOpen;
+using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
-namespace NXOpenSetUPCSharp
+namespace NXOpenPracticeCSharp
 {
     public class FileManager
     {
@@ -152,6 +154,23 @@ namespace NXOpenSetUPCSharp
         {
             return File.ReadAllText(path);
         }
+
+        public static List<string> ReadAllLinesFromTextFile(string filePath)
+        {
+            List<string> lines = new List<string>();
+            try
+            {
+                if (filePath != null)
+                {
+                    lines = File.ReadAllLines(filePath).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new IOException($"Error reading lines from file: {filePath}", ex);
+            }
+            return lines;
+        }
         // ---------------- CSV FILE ----------------
 
         /// <summary>
@@ -191,3 +210,6 @@ namespace NXOpenSetUPCSharp
 
     }
 }
+
+////Get the path to the user's desktop directory 
+//string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);

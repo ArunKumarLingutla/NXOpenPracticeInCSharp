@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXOpenSetUPCSharp", "NXOpenSetUPCSharp.csproj", "{CE6481E4-00A2-480A-B7B1-C370F64C4E30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXOpenPracticeCSharp", "NXOpenPracticeCSharp.csproj", "{CE6481E4-00A2-480A-B7B1-C370F64C4E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXOpenSetUPCSharpTest", "Tests\NXOpenSetUPCSharpTest.csproj", "{ACD8A684-FB81-4006-AEE5-790ED243A881}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXOpenPracticeCSharpTest", "Tests\NXOpenPracticeCSharpTest.csproj", "{ACD8A684-FB81-4006-AEE5-790ED243A881}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using NXOpenSetUPCSharp;
+using NXOpenPracticeCSharp;
 
-namespace NXOpenSetupCSharpTest
+namespace NXOpenPracticeCSharpTest
 {
     [TestFixture]
-    public class NXOpenSetUPCSharpTest
+    public class NXOpenPracticeCSharpTest
     {
         [OneTimeSetUp]
         public void Test_ToolInitialization()

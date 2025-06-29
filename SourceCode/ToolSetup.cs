@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NXOpenSetUPCSharp
+namespace NXOpenPracticeCSharp
 {
     public class ToolSetup
     {
@@ -14,9 +14,7 @@ namespace NXOpenSetUPCSharp
             string BaseDirectory = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName;
             ToolVariables.InputDirectory = Path.Combine(BaseDirectory, "Input");
             ToolVariables.OutputDirectory = Path.Combine(BaseDirectory, "Output");
-            NXOpen.UI.GetUI().NXMessageBox.Show("Input Directory", NXOpen.NXMessageBox.DialogType.Information, "Input Directory: " + ToolVariables.InputDirectory);
-            NXOpen.UI.GetUI().NXMessageBox.Show("Input Directory", NXOpen.NXMessageBox.DialogType.Information, "output Directory: " + ToolVariables.OutputDirectory);
-            
+
             if (!Directory.Exists(ToolVariables.OutputDirectory))
             {
                 Directory.CreateDirectory(ToolVariables.OutputDirectory);

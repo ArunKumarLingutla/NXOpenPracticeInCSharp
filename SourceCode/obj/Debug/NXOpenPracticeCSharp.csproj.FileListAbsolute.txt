@@ -1,0 +1,17 @@
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpenPracticeCSharp.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpenPracticeCSharp.pdb
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpen.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpen.Guide.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpen.UF.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpen.Utilities.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpenUI.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpen.xml
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpen.Guide.xml
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpen.UF.xml
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpen.Utilities.xml
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\bin\Debug\NXOpenUI.xml
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\obj\Debug\NXOpenPracticeCSharp.csproj.AssemblyReference.cache
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\obj\Debug\NXOpenPracticeCSharp.csproj.CoreCompileInputs.cache
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\obj\Debug\NXOpenPr.124163B8.Up2Date
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\obj\Debug\NXOpenPracticeCSharp.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\obj\Debug\NXOpenPracticeCSharp.pdb

@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ACD8A684-FB81-4006-AEE5-790ED243A881}</ProjectGuid>
+    <ProjectGuid>{CE6481E4-00A2-480A-B7B1-C370F64C4E30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NXOpenSetupCSharpTest</RootNamespace>
-    <AssemblyName>NXOpenSetupCSharpTest</AssemblyName>
+    <RootNamespace>NXOpenPracticeCSharp</RootNamespace>
+    <AssemblyName>NXOpenPracticeCSharp</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>$(SolutionDir)\Build\Debug\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -25,17 +25,26 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Build\Debug\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NXOpen">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\Siemens\NX 12.0\NXBIN\managed\NXOpen.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX 12.0\NXBIN\managed\NXOpen.dll</HintPath>
+    </Reference>
+    <Reference Include="NXOpen.Guide">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX 12.0\NXBIN\managed\NXOpen.Guide.dll</HintPath>
     </Reference>
     <Reference Include="NXOpen.UF">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\Siemens\NX 12.0\NXBIN\managed\NXOpen.UF.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX 12.0\NXBIN\managed\NXOpen.UF.dll</HintPath>
+    </Reference>
+    <Reference Include="NXOpen.Utilities">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX 12.0\NXBIN\managed\NXOpen.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="NXOpenUI">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX 12.0\NXBIN\managed\NXOpenUI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,25 +56,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NXOpenSetUPCSharpTest.cs" />
+    <Compile Include="FileManager.cs" />
+    <Compile Include="InputProperties.cs" />
+    <Compile Include="Names.cs" />
+    <Compile Include="NXLogger.cs" />
+    <Compile Include="NXOpenPracticeCSharp.cs" />
+    <Compile Include="PartFileOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolSetup.cs" />
+    <Compile Include="ToolVariables.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk">
-      <Version>17.14.0</Version>
-    </PackageReference>
-    <PackageReference Include="NUnit">
-      <Version>4.3.2</Version>
-    </PackageReference>
-    <PackageReference Include="NUnit3TestAdapter">
-      <Version>5.0.0</Version>
-    </PackageReference>
+    <Folder Include="Res\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NXOpenSetUPCSharp.csproj">
-      <Project>{ce6481e4-00a2-480a-b7b1-c370f64c4e30}</Project>
-      <Name>NXOpenSetUPCSharp</Name>
-    </ProjectReference>
+    <EmbeddedResource Include="NXSigningResource.res" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

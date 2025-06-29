@@ -2,13 +2,14 @@
 using NXOpen.UF;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NXOpenSetUPCSharp
+namespace NXOpenPracticeCSharp
 {
-    public class NXOpenSetUPCsharp
+    public class NXOpenPracticeCSharp
     {
         //class members
         private static NXOpen.Session theSession = null;
@@ -25,6 +26,23 @@ namespace NXOpenSetUPCSharp
                 NXOpen.Part workPart = theSession.Parts.Work;
                 NXOpen.Part displayPart = theSession.Parts.Display;
                 ToolSetup.InitializeTool();
+
+                ////*******Create a part file********
+                string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                string inputFilePath = Path.Combine(ToolVariables.InputDirectory, "SamplePart.prt");
+                //PartFileOperations.CreatePartFile(inputFilePath);
+
+                ////********Open a part file********
+                //NXOpen.PartLoadStatus loadStatus = PartFileOperations.OpenPart(inputFilePath);
+                //NXLogger.Instance.Log($"number of unloaded parts : {loadStatus.NumberUnloadedParts}", LogLevel.Info);
+
+                ////********Save the part file********
+                PartFileOperations.SavePart();
+                PartFileOperations.SaveAs(Path.Combine(desktopPath, "SaveAsPart1.prt"));
+
+
+
+
             }
             catch (Exception)
             {

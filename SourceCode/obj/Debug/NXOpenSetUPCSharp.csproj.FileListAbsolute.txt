@@ -44,3 +44,5 @@ C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Debug\NXOpenSetUPCS
 C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Debug\NXOpenSe.E850BB71.Up2Date
 C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Debug\NXOpenSetUPCSharp.dll
 C:\Users\arunk\source\repos\NXOpenSetUPCSharp\SourceCode\obj\Debug\NXOpenSetUPCSharp.pdb
+C:\Users\arunk\Source\Repos\NXOpenPracticeInCSharp\SourceCode\obj\Debug\NXOpenSetUPCSharp.csproj.AssemblyReference.cache
+C:\Users\arunk\Source\Repos\NXOpenPracticeInCSharp\SourceCode\obj\Debug\NXOpenSetUPCSharp.csproj.CoreCompileInputs.cache

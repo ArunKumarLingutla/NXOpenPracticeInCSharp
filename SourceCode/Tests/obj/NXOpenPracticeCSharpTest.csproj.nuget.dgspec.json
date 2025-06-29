@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj": {}
+    "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenPracticeCSharpTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj": {
+    "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenPracticeCSharp.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj",
-        "projectName": "NXOpenSetUPCSharp",
-        "projectPath": "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenPracticeCSharp.csproj",
+        "projectName": "NXOpenPracticeCSharp",
+        "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenPracticeCSharp.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
@@ -20,14 +20,14 @@
         "net48": {}
       }
     },
-    "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj": {
+    "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenPracticeCSharpTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj",
-        "projectName": "NXOpenSetupCSharpTest",
-        "projectPath": "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj",
+        "projectUniqueName": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenPracticeCSharpTest.csproj",
+        "projectName": "NXOpenPracticeCSharpTest",
+        "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenPracticeCSharpTest.csproj",
         "packagesPath": "C:\\Users\\arunk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -49,8 +49,8 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj": {
-                "projectPath": "C:\\Users\\arunk\\Source\\Repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj"
+              "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenPracticeCSharp.csproj": {
+                "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenPracticeCSharp.csproj"
               }
             }
           }

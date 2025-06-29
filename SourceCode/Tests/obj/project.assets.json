@@ -621,13 +621,13 @@
           }
         }
       },
-      "NXOpenSetUPCSharp/1.0.0": {
+      "NXOpenPracticeCSharp/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         }
       }
     },
@@ -1251,13 +1251,13 @@
           }
         }
       },
-      "NXOpenSetUPCSharp/1.0.0": {
+      "NXOpenPracticeCSharp/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         }
       }
     },
@@ -1881,13 +1881,13 @@
           }
         }
       },
-      "NXOpenSetUPCSharp/1.0.0": {
+      "NXOpenPracticeCSharp/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         }
       }
     },
@@ -2511,13 +2511,13 @@
           }
         }
       },
-      "NXOpenSetUPCSharp/1.0.0": {
+      "NXOpenPracticeCSharp/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         }
       }
     },
@@ -3141,13 +3141,13 @@
           }
         }
       },
-      "NXOpenSetUPCSharp/1.0.0": {
+      "NXOpenPracticeCSharp/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NXOpenSetUPCSharp.dll": {}
+          "bin/placeholder/NXOpenPracticeCSharp.dll": {}
         }
       }
     }
@@ -4088,10 +4088,10 @@
         "version.txt"
       ]
     },
-    "NXOpenSetUPCSharp/1.0.0": {
+    "NXOpenPracticeCSharp/1.0.0": {
       "type": "project",
-      "path": "../NXOpenSetUPCSharp.csproj",
-      "msbuildProject": "../NXOpenSetUPCSharp.csproj"
+      "path": "../NXOpenPracticeCSharp.csproj",
+      "msbuildProject": "../NXOpenPracticeCSharp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4099,7 +4099,7 @@
       "Microsoft.NET.Test.Sdk >= 17.14.0",
       "NUnit >= 4.3.2",
       "NUnit3TestAdapter >= 5.0.0",
-      "NXOpenSetUPCSharp >= 1.0.0"
+      "NXOpenPracticeCSharp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4109,11 +4109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj",
-      "projectName": "NXOpenSetupCSharpTest",
-      "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\Tests\\NXOpenSetUPCSharpTest.csproj",
+      "projectUniqueName": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenPracticeCSharpTest.csproj",
+      "projectName": "NXOpenPracticeCSharpTest",
+      "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\NXOpenPracticeCSharpTest.csproj",
       "packagesPath": "C:\\Users\\arunk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
@@ -4135,8 +4135,8 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj": {
-              "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenSetUPCSharp\\SourceCode\\NXOpenSetUPCSharp.csproj"
+            "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenPracticeCSharp.csproj": {
+              "projectPath": "C:\\Users\\arunk\\source\\repos\\NXOpenPracticeInCSharp\\SourceCode\\NXOpenPracticeCSharp.csproj"
             }
           }
         }

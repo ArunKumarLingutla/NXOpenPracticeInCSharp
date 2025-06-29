@@ -1,0 +1,16 @@
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Tests\obj\Debug\NXOpenPracticeCSharpTest.csproj.AssemblyReference.cache
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Tests\obj\Debug\NXOpenPracticeCSharpTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Tests\obj\Debug\NXOpenPracticeCSharpTest.dll.config
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Tests\obj\Debug\NXOpenPracticeCSharpTest.csproj.CoreCompileInputs.cache
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\NUnit3.TestAdapter.pdb
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\nunit.engine.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\nunit.engine.api.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\nunit.engine.core.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\testcentric.engine.metadata.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\NUnit3.TestAdapter.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\NXOpenPracticeCSharpTest.dll.config
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\NXOpenPracticeCSharpTest.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Build\Debug\NXOpenPracticeCSharpTest.pdb
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Tests\obj\Debug\NXOpenPr.AE92CF9C.Up2Date
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Tests\obj\Debug\NXOpenPracticeCSharpTest.dll
+C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\SourceCode\Tests\obj\Debug\NXOpenPracticeCSharpTest.pdb
