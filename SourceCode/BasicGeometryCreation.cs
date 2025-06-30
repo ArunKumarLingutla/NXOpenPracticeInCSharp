@@ -1,9 +1,10 @@
-﻿using System;
+﻿using NXOpen;
+using NXOpen.Features;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NXOpen;
 
 namespace NXOpenPracticeCSharp
 {
@@ -51,6 +52,53 @@ namespace NXOpenPracticeCSharp
             ////UF_POINT_create_with_offset
         }
 
-        
+        public static int CreateLine(double x1, double y1, double z1, double x2, double y2, double z2)
+        {
+            int returnValue = 0;
+            // Create the AssociativeLineBuilder
+            AssociativeLine lineNothing = null;
+            AssociativeLineBuilder builder = Session.GetSession().Parts.Work.BaseFeatures.CreateAssociativeLineBuilder(lineNothing);
+
+            // Set it to be associative
+            builder.Associative = true;
+
+            // Define the start point
+            Point3d p0 = new Point3d(x1,y1,z1);
+            Point pt0 = Session.GetSession().Parts.Work.Points.CreatePoint(p0);
+            builder.StartPointOptions = AssociativeLineBuilder.StartOption.Point;
+            builder.StartPoint.Value = pt0;
+
+            // Define the end point
+            Point3d p1 = new Point3d(x2,y2,z2);
+            Point pt1 = Session.GetSession().Parts.Work.Points.CreatePoint(p1);
+            builder.EndPointOptions = AssociativeLineBuilder.EndOption.Point;
+            builder.EndPoint.Value = pt1;
+
+            // Commit the associative line feature
+            NXObject result = builder.Commit();
+
+            // Clean up
+            builder.Destroy();
+            if (result == null)
+            {
+                returnValue = 1;
+                NXOpen.UI.GetUI().NXMessageBox.Show("Error", NXOpen.NXMessageBox.DialogType.Error, "Failed to create line.");
+            }
+            else
+            {
+                NXLogger.Instance.Log($"Line created from ({x1}, {y1}, {z1}) to ({x2}, {y2}, {z2})", LogLevel.Info);
+            }
+            return returnValue;
+
+            ////We can also use NX/Open .NET API functions
+            ////https://docs.sw.siemens.com/en-US/doc/209349590/PL20190701150722612.ugopen_doc
+            ////UF_CURVE_create_line
+            ////UF_CURVE_create_line_arc
+            ////UF_CURVE_create_line_point_angle
+            ////UF_CURVE_create_line_point_point
+            ////UF_CURVE_create_line_point_principal_axis
+            ////UF_CURVE_create_line_point_tangent
+            ////UF_CURVE_create_line_tangent_point
+        }
     }
 }

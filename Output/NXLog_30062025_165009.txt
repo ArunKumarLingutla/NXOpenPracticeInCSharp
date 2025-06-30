@@ -1,7 +1,0 @@
-[2025-06-30 16:50:09] [Info] ===== NX Logging Started =====
-[2025-06-30 16:50:09] [Debug] User: arunk, NX Version: v12
-[2025-06-30 16:50:09] [Info] Tool initialized with input directory: C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\Input
-[2025-06-30 16:50:09] [Info] Output directory set to: C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\Output
-[2025-06-30 16:50:09] [Info] Part file created: C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\Input\SamplePart.prt
-[2025-06-30 16:50:10] [Error] Failed to save part.
-[2025-06-30 16:50:10] [Info] Point created at (10, 20, 30)

@@ -44,6 +44,9 @@ namespace NXOpenPracticeCSharp
                 ////********Create a point********
                 BasicGeometryCreation.CreatePoint(10.0, 20.0, 30.0);
 
+                ////********Create a line********
+                BasicGeometryCreation.CreateLine(0.0, 0.0, 0.0, 10.0, 10.0, 10.0);
+
             }
             catch (Exception)
             {
