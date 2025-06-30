@@ -30,7 +30,7 @@ namespace NXOpenPracticeCSharp
                 ////*******Create a part file********
                 string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 string inputFilePath = Path.Combine(ToolVariables.InputDirectory, "SamplePart.prt");
-                //PartFileOperations.CreatePartFile(inputFilePath);
+                PartFileOperations.CreatePartFile(inputFilePath);
 
                 ////********Open a part file********
                 //NXOpen.PartLoadStatus loadStatus = PartFileOperations.OpenPart(inputFilePath);
@@ -38,10 +38,11 @@ namespace NXOpenPracticeCSharp
 
                 ////********Save the part file********
                 PartFileOperations.SavePart();
-                PartFileOperations.SaveAs(Path.Combine(desktopPath, "SaveAsPart1.prt"));
+                //PartFileOperations.SaveAs(Path.Combine(desktopPath, "SaveAsPart1.prt"));
 
 
-
+                ////********Create a point********
+                BasicGeometryCreation.CreatePoint(10.0, 20.0, 30.0);
 
             }
             catch (Exception)

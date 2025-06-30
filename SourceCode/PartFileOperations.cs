@@ -1,10 +1,12 @@
 ﻿using NXOpen;
+using NXOpen.CAE;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static NXOpen.CAE.Post;
 
 namespace NXOpenPracticeCSharp
 {
@@ -19,11 +21,11 @@ namespace NXOpenPracticeCSharp
         public static int CreatePartFile(string partName)
         {
             int returnValue = 0;
+            NXOpen.Session theSession = NXOpen.Session.GetSession();
             try
             {
-                NXOpen.Session session = NXOpen.Session.GetSession();
-                NXOpen.BasePart part = (NXOpen.Part)session.Parts.NewBaseDisplay(partName, NXOpen.BasePart.Units.Millimeters);
-                session.Parts.SetWork(part);
+                NXOpen.BasePart part = (NXOpen.Part)theSession.Parts.NewBaseDisplay(partName, NXOpen.BasePart.Units.Millimeters);
+                theSession.Parts.SetWork(part);
                 NXLogger.Instance.Log($"Part file created: {partName}", LogLevel.Info);
             }
             catch (Exception ex)
@@ -32,6 +34,47 @@ namespace NXOpenPracticeCSharp
                 NXLogger.Instance.LogException(ex);
                 NXOpen.UI.GetUI().NXMessageBox.Show("Error", NXOpen.NXMessageBox.DialogType.Error, ex.Message);
             }
+
+            ////**********Journal***************
+            //NXOpen.FileNew fileNew1;
+            //fileNew1 = theSession.Parts.FileNew();
+
+            //fileNew1.TemplateFileName = "model-plain-1-mm-template.prt";
+
+            //fileNew1.UseBlankTemplate = false;
+
+            //fileNew1.ApplicationName = "ModelTemplate";
+
+            //fileNew1.Units = NXOpen.Part.Units.Millimeters;
+
+            //fileNew1.RelationType = "";
+
+            //fileNew1.UsesMasterModel = "No";
+
+            //fileNew1.TemplateType = NXOpen.FileNewTemplateType.Item;
+
+            //fileNew1.TemplatePresentationName = "Model";
+
+            //fileNew1.ItemType = "";
+
+            //fileNew1.Specialization = "";
+
+            //fileNew1.SetCanCreateAltrep(false);
+
+            //fileNew1.NewFileName = partName;
+
+            //fileNew1.MasterFileName = "";
+
+            //fileNew1.MakeDisplayedPart = true;
+
+            //fileNew1.DisplayPartOption = NXOpen.DisplayPartOption.AllowAdditional;
+
+            //NXOpen.NXObject nXObject1;
+            //nXObject1 = fileNew1.Commit();
+
+            //fileNew1.Destroy();
+
+
             return returnValue;
         }
 
@@ -103,9 +146,9 @@ namespace NXOpenPracticeCSharp
         }
 
         /// <summary>
-        /// Saves the currently active part in the NX session.
+        /// Saves the currently active part in the NX theSession.
         /// </summary>
-        /// <remarks>This method attempts to save the active part in the NX session. If the save operation
+        /// <remarks>This method attempts to save the active part in the NX theSession. If the save operation
         /// is successful,ensures referenced components are also saved, keeps the part open after saving..</remarks>
         public static int SavePart()
         {
@@ -150,6 +193,7 @@ namespace NXOpenPracticeCSharp
                     returnValue = 1;
                     NXLogger.Instance.Log("Failed to save part.", LogLevel.Error);
                 }
+                partSaveStatus.Dispose();
             }
             return returnValue;
         }
