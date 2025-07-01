@@ -37,15 +37,17 @@ namespace NXOpenPracticeCSharp
                 //NXLogger.Instance.Log($"number of unloaded parts : {loadStatus.NumberUnloadedParts}", LogLevel.Info);
 
                 ////********Save the part file********
-                PartFileOperations.SavePart();
+                //PartFileOperations.SavePart();
                 //PartFileOperations.SaveAs(Path.Combine(desktopPath, "SaveAsPart1.prt"));
 
 
                 ////********Create a point********
-                BasicGeometryCreation.CreatePoint(10.0, 20.0, 30.0);
+                //BasicGeometryCreation.CreatePoint(10.0, 20.0, 30.0);
 
                 ////********Create a line********
                 BasicGeometryCreation.CreateLine(0.0, 0.0, 0.0, 10.0, 10.0, 10.0);
+
+                BasicGeometryCreation.CreateAssociativeArc(0, 0, 0, 15);
 
             }
             catch (Exception)

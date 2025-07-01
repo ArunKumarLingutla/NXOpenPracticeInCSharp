@@ -1,0 +1,6 @@
+[2025-07-01 18:17:48] [Info] ===== NX Logging Started =====
+[2025-07-01 18:17:48] [Debug] User: arunk, NX Version: v12
+[2025-07-01 18:17:48] [Info] Tool initialized with input directory: C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\Input
+[2025-07-01 18:17:48] [Info] Output directory set to: C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\Output
+[2025-07-01 18:17:48] [Info] Part file created: C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\Input\SamplePart.prt
+[2025-07-01 18:17:48] [Info] Line created from (0, 0, 0) to (10, 10, 10)
