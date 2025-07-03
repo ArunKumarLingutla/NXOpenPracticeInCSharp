@@ -30,7 +30,7 @@ namespace NXOpenPracticeCSharp
                 ////*******Create a part file********
                 string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 string inputFilePath = Path.Combine(ToolVariables.InputDirectory, "SamplePart.prt");
-                PartFileOperations.CreatePartFile(inputFilePath);
+                //PartFileOperations.CreatePartFile(inputFilePath);
 
                 ////********Open a part file********
                 //NXOpen.PartLoadStatus loadStatus = PartFileOperations.OpenPart(inputFilePath);
@@ -45,9 +45,16 @@ namespace NXOpenPracticeCSharp
                 //BasicGeometryCreation.CreatePoint(10.0, 20.0, 30.0);
 
                 ////********Create a line********
-                BasicGeometryCreation.CreateLine(0.0, 0.0, 0.0, 10.0, 10.0, 10.0);
+                //BasicGeometryCreation.CreateLine(0.0, 0.0, 0.0, 10.0, 10.0, 10.0);
 
-                BasicGeometryCreation.CreateAssociativeArc(0, 0, 0, 15);
+                ////***************Create arc or circle*************
+                //BasicGeometryCreation.CreateAssociativeArc(0, 0, 0, 15);
+
+                //GetPartsAndFeatures.GetAllComponents();
+                foreach (var item in GetPartsAndFeatures.GetAllComponents())
+                {
+                    NXLogger.Instance.Log($"{item.Name}");
+                }
 
             }
             catch (Exception)

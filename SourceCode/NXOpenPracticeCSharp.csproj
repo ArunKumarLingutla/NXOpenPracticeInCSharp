@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="BasicGeometryCreation.cs" />
     <Compile Include="FileManager.cs" />
+    <Compile Include="GetPartsAndFeatures.cs" />
     <Compile Include="InputProperties.cs" />
     <Compile Include="Names.cs" />
     <Compile Include="NXLogger.cs" />
