@@ -1,5 +1,6 @@
 ﻿using NXOpen;
 using NXOpen.Assemblies;
+using NXOpen.Features;
 using NXOpen.UF;
 using NXOpen.Utilities;
 using System;
@@ -73,7 +74,7 @@ namespace NXOpenPracticeCSharp
         /// if assembly first it will collect all components, gets its prototype and than collects the bodies, if the body is in assembly level it wont collect it
         /// /// </summary>
         /// <returns>List of bodies</returns>
-        public List<Body> GetBodies()
+        public static List<Body> GetBodies()
         {
             Part displayPart=Session.GetSession().Parts.Display;
             List<Body> bodyList = new List<Body>();
@@ -107,16 +108,14 @@ namespace NXOpenPracticeCSharp
         /// This will collect all the solid bodies from the display doesn't matter wether it is in assembly or part
         /// </summary>
         /// <param name="bodies">output bodies</param>
-        /// <param name="faces">output faces</param>
-        public void GetBodiesAndFacesFromAssembly(out List<Body> bodies, out List<Face> faces)
+        public static List<Body> GetBodiesFromAssembly()
         {
             //This will collect all the solid bodies from the display doesn't matter wether it is in assembly or part
 
             UFSession theUFSession = UFSession.GetUFSession();
             Part displayPart = Session.GetSession().Parts.Display;
 
-            bodies = new List<Body>();
-            faces = new List<Face>();
+            List<Body> bodies = new List<Body>();
 
             Tag body = Tag.Null;
 
@@ -134,7 +133,6 @@ namespace NXOpenPracticeCSharp
                         if (bdy != null)
                         {
                             bodies.Add(bdy);
-                            faces.AddRange(bdy.GetFaces());
                         }
                     }
                 }
@@ -143,6 +141,56 @@ namespace NXOpenPracticeCSharp
             //NXLogger.Instance.Log($"no of bodies: {bodies.Count}");
             //NXLogger.Instance.Log($"no of faces: {faces.Count}");
 
+            return bodies;
+        }
+
+        /// <summary>
+        /// Gets the feature by name in the part or assembly.
+        /// </summary>
+        /// <param name="featureName">Feature name provided in properties </param>
+        /// <returns></returns>
+        public static Feature FindFeatureByName(string featureName)
+        {
+            ////Get all the features in the part
+            Part displayPart = Session.GetSession().Parts.Display;
+            Feature[] features = displayPart.Features.ToArray();
+            ////Find the feature by name
+            ////Feature.Name --> Gets the name of the feature as defined in the properties --> pt
+            ////Feature.GetFeatureName() --> Gets the name of the feature as defined in the feature itself-->Point(1)
+            Feature foundFeature = features.FirstOrDefault(f => f.Name.Equals(featureName, StringComparison.OrdinalIgnoreCase));
+            foreach (Feature feature in features)
+            {
+                NXLogger.Instance.Log($"Feature.Name: {feature.Name}, Feature.GetFeatureName: {feature.GetFeatureName()}, Type: {feature.FeatureType}", LogLevel.Debug);
+            }
+            if (foundFeature != null)
+            {
+                NXLogger.Instance.Log($"Feature '{featureName}' found.", LogLevel.Info);
+                return foundFeature;
+            }
+            else
+            {
+                NXLogger.Instance.Log($"Feature '{featureName}' not found.", LogLevel.Warning);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Gets all faces from list of bodies
+        /// </summary>
+        /// <param name="lsBodies">List of bodies whose faces are needed </param>
+        /// <returns></returns>
+        public static List<Face> GetFaces(List<Body> lsBodies)
+        {
+            List<Face> faces = new List<Face>();
+
+            foreach (Body body in lsBodies) 
+            {
+                if (body != null)
+                {
+                    faces.AddRange(body.GetFaces());
+                }
+            }
+            return faces;
         }
     }
 }

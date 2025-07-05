@@ -1,0 +1,22 @@
+[2025-07-05 22:11:56] [Info] ===== NX Logging Started =====
+[2025-07-05 22:11:56] [Debug] User: arunk, NX Version: v12
+[2025-07-05 22:11:56] [Info] Tool initialized with input directory: C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\Input
+[2025-07-05 22:11:56] [Info] Output directory set to: C:\Users\arunk\source\repos\NXOpenPracticeInCSharp\Output
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Cylindrical
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Cylindrical
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
+[2025-07-05 22:11:56] [Info] Face Name: , Face Type: Planar
